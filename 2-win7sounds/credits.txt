@@ -1,0 +1,2 @@
+All sounds in this directory belongs to Microsoft and their Windows 7 OS.
+The exceptions are sounds "Calendar Reminder.wav", "Windows Notify Mail.wav" and "Windows Notify Messaging.wav".

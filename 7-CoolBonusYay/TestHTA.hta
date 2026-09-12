@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Test HTA Application</title>
+		<meta http-equiv="x-ua-compatible" content="ie=9">
+		<hta:application 
+			id="coolApp"
+			applicationname="coolapp"
+			version="1"
+		</hta>
+		<style type="text/css">
+			body {
+				background-image: url(BurningFlame0.gif);
+				background-size: cover;
+				background-repeat: no-repeat;
+				color: white;
+			}
+			h1 {
+				color: red;
+			}
+		</style>
+		<script type = "text/vbscript">
+			function executeTestDialog()
+				a=MsgBox("Critical", 16, "TEST")
+				a=MsgBox("Question", 32, "TEST")
+				a=MsgBox("Exclamation", 48, "TEST")
+				a=MsgBox("Info", 64, "TEST")
+			end function
+		</script>
+	</head>
+	
+	<body>
+		<h1>Super Cool Application For Testing My Themes! >:D</h1>
+		<p>Yeah, it's just a bunch of scripts to test...<br/>Press some buttons and be happy.</p>
+		<button onclick="executeTestDialog()">Click me to test dialogs!</button>
+	</body>
+</html>
